@@ -1,0 +1,14 @@
+<page 
+  xmlns="http://schemas.nativescript.org/tns.xsd" 
+  xmlns:WR="nativescript-wave-refresh" loaded="pageLoaded">
+  <ActionBar title="Wave Refresh" backgroundColor="#FF4081" color="#fff" />
+  <stack-layout>
+    <WR:WaveRefresh backgroundColor="#FF4081" refresh="{{ stopRefresh }}" id="waveRefresh">
+      <list-view items="{{ users }}">
+        <list-view.itemTemplate>
+          <label text="{{ name }}" row="0" col="1" textWrap="true" class="message" />
+        </list-view.itemTemplate>
+      </list-view>
+    </WR:WaveRefresh>
+  </stack-layout>
+</page>

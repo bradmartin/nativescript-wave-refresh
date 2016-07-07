@@ -1,0 +1,18 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptwaverefresh" {
+            dimension "nativescriptwaverefresh"
+        }
+    }
+}
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+  compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+}

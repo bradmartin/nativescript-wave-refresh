@@ -50,7 +50,7 @@ import { WaveRefresh } from "nativescript-wave-refresh"
 
 
 ## Attributes
-**refresh : function** *optional* - this event is triggered when you set the BoredRudoplh *refresh* property equal to false.
+**refresh : function** *optional* - function executed when the WaveRefresh starts refreshing.
 
 *backgroundColor* is supported to specify the background color of the wave refresh. This will help to blend it in with the ActionBar.
 

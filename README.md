@@ -1,8 +1,8 @@
 [![npm](https://img.shields.io/npm/v/nativescript-wave-refresh.svg)](https://www.npmjs.com/package/nativescript-wave-refresh)
 [![npm](https://img.shields.io/npm/dt/nativescript-wave-refresh.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-wave-refresh)
 
-# NativeScript-wave-refresh :recycle:
-NativeScript plugin for a custom hidden game inside a pull-to-refresh layout.
+# NativeScript-Wave-Refresh :recycle:
+NativeScript plugin for a custom pull-to-refresh layout.
 
 ## Demo
 
@@ -51,6 +51,8 @@ import { WaveRefresh } from "nativescript-wave-refresh"
 
 ## Attributes
 **refresh : function** *optional* - this event is triggered when you set the BoredRudoplh *refresh* property equal to false.
+
+*backgroundColor* is supported to specify the background color of the wave refresh. This will help to blend it in with the ActionBar.
 
 ## API
 

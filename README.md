@@ -1,5 +1,8 @@
 [![npm](https://img.shields.io/npm/v/nativescript-wave-refresh.svg)](https://www.npmjs.com/package/nativescript-wave-refresh)
 [![npm](https://img.shields.io/npm/dt/nativescript-wave-refresh.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-wave-refresh)
+[![GitHub stars](https://img.shields.io/github/stars/bradmartin/nativescript-wave-refresh.svg)](https://github.com/bradmartin/nativescript-wave-refresh/stargazers)
+[![PayPal Donate](https://img.shields.io/badge/Donate-PayPal-ff4081.svg)](https://www.paypal.me/bradwayne88)
+
 
 # NativeScript-Wave-Refresh :recycle:
 NativeScript plugin for a custom pull-to-refresh layout.
